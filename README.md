@@ -9,6 +9,7 @@ This library provides full control over the Microchip's [MCP23017](https://www.m
  * Ports read & write
  * Registers read & write
  * Full interrupt support
+ * Adjustable I2C bus number
 
 ## Usage
 Unlike most Arduino library, no default instance is created when the library is included. It's up to you to create one using the appropriate I2C address based on  MCP23017 `A0`, `A1` and `A2` pins wirings.
